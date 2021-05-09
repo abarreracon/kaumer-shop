@@ -23,7 +23,7 @@ export const login = (email, password) => async (dispatch) => {
         {'username': email, 'password': password},
         config
         );
-    
+
     dispatch({
         type: USER_LOGIN_SUCCESS,
         payload:data
